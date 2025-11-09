@@ -1,1 +1,37 @@
-{"object_present": false, "last_seen": "01:43:08 PM", "movement_detected": false, "last_movement": null, "status_message": "\u26a0\ufe0f Missing for 86 frames"}
+{
+   "object_present": false,
+   "last_seen": "07:30:57 PM",
+   "movement_detected": false,
+   "last_movement": null,
+   "status_message": "\u26a0\ufe0f 2 bottle(s) missing!",
+   "bottles": [
+      {
+         "id": 0,
+         "present": false,
+         "last_seen": "07:31:02 PM",
+         "missing_for": 7.7,
+         "movement_detected": false,
+         "missing_alerted": true,
+         "position": {
+            "x": 136,
+            "y": 380
+         }
+      },
+      {
+         "id": 1,
+         "present": false,
+         "last_seen": "07:30:55 PM",
+         "missing_for": 14.86,
+         "movement_detected": false,
+         "missing_alerted": true,
+         "position": {
+            "x": 322,
+            "y": 386
+         }
+      }
+   ],
+   "total_bottles": 2,
+   "present_count": 0,
+   "missing_count": 2,
+   "max_bottles_seen": 2
+}
