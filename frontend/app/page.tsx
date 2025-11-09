@@ -18,17 +18,7 @@ export default function Home() {
             <p>
               Welcome to <span className="font-semibold text-black dark:text-white">ArtWatch</span>,
               an advanced surveillance system that uses cutting-edge computer vision technology to
-              monitor and protect artwork in real-time.
-            </p>
-            <p>
-              Powered by <span className="font-semibold text-black dark:text-white">OpenCV</span> and
-              <span className="font-semibold text-black dark:text-white"> YOLO</span>, our system
-              continuously watches over your displayed artwork using a webcam, detecting any changes,
-              movements, or potential vandalism with precision and speed.
-            </p>
-            <p className="pt-4 text-base font-medium text-zinc-800 dark:text-zinc-200 sm:text-lg">
-              Get instant alerts the moment something happens. Your art deserves protection,
-              and ArtWatch delivers.
+              monitor and protect artwork in real-time, to ensure a heist like the infamous Lourve heist never happens again.
             </p>
           </div>
 
@@ -55,6 +45,20 @@ export default function Home() {
                 Get notified immediately when threats are detected
               </p>
             </div>
+          </div>
+
+          {/* Description continued */}
+          <div className="mt-8 max-w-3xl space-y-6 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-xl">
+            <p>
+              Powered by <span className="font-semibold text-black dark:text-white">OpenCV</span> and
+              <span className="font-semibold text-black dark:text-white"> YOLO</span>, our system
+              continuously watches over your displayed artwork using a webcam, detecting any changes,
+              movements, or potential vandalism with precision and speed.
+            </p>
+            <p className="pt-4 text-base font-medium text-zinc-800 dark:text-zinc-200 sm:text-lg">
+              Get instant alerts the moment something happens. Your art deserves protection,
+              and ArtWatch delivers.
+            </p>
           </div>
         </div>
       </main>
